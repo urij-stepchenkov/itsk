@@ -26,11 +26,12 @@
 
 Результаты сохраняются в файлы:
 
-    results_o1.txt
-    results_o2.txt
-    results_w1.txt
-    results_w2.txt
+    data/results_o1.txt
+    data/results_o2.txt
+    data/results_w1.txt
+    data/results_w2.txt
 
 где /[ow/]/[12/] - тип продукта (o - oil, w - water), 1,2 - тип ф-ии спада.
 
+Тестировалось на CentOS 7.3.1611 64-bit со стандартными для этого дистрибутива версиями пакетов CMake, make, gcc.
 
