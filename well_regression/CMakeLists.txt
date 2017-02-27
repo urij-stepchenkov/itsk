@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 2.6)
 
 # Debug or Release
 set(CMAKE_BUILD_TYPE "Release")
