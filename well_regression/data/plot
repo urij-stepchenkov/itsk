@@ -1,0 +1,8 @@
+set xlabel "date"
+set ylabel "q"
+plot 'results_w2.txt' using ($2):($3) w points title "real", "results_w2.txt" using ($2):($4) w points title "model"
+pause -1
+set terminal png
+set output "out.png"
+replot 
+set terminal x11
